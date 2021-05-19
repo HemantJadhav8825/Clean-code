@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section start */
+
+header {
+    height: 100vh;
+    background-image: url('back.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.head-plot-float {
+    margin-top: -10%;
+}
+
+.head-row {
+    padding: 0 2%;
+}
+
+.head-form {
+    padding: 0 0 0 25%;
+}
+
+.form-span-bg {
+    background-color: #17A2B8;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    box-sizing: border-box;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, -15px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+/* header section start */
+
+/* whatapp */
+
+#sd-bar-wht {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 999;
+}
+
+.sd-bar-wht {
+    background: #0dbf43;
+    border-radius: 2rem;
+    padding: 10px 12px 10px;
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+}
+
+.sd-bar-wht i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* phone */
+
+#sd-bar-phn {
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    z-index: 999;
+}
+
+.sd-bar-phn {
+    border-radius: 2rem;
+    padding: 10px 12px 10px;
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+}
+
+.sd-bar-phn i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.sd-bar-phn a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+}
+
+/* whats app end */
