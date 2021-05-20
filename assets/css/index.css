@@ -186,7 +186,12 @@ header {
 /* media queries */
 
 @media (min-width: 768px) {
+    /* phone section start */
     #sd-bar-phn {
+        display: none;
+    }
+    /* phone section end */
+    .mob-section-nav{
         display: none;
     }
 }
