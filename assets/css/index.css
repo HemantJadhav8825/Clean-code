@@ -225,6 +225,23 @@ header {
 }
 /* clubhouse end */
 
+/* property choice section start */
+.property-padding{
+    padding: 3% 18% 0 18%;
+    background-color: #F5F5F5;
+}
+.property-choice-color{
+    font-size: 2.5rem;
+    font-family: 'Orelega One', cursive;
+}
+.property-choice-color p{
+    color: #C5A37E;
+}
+.property-choice-color p span{
+    color: black;
+}
+/* property choice sectio end */
+
 /* media queries */
 
 @media (min-width: 768px) {
@@ -268,9 +285,16 @@ header {
         z-index: 998;
     }
     /* header section end */
+
     /* mobile nav start */
     .nav-section-fix {
         display: none;
     }
     /* mobile nav end */
+
+    /* property choice start */
+    .property-padding{
+        padding: 2% 0;
+    }
+    /* property choice end */
 }
