@@ -13,6 +13,7 @@ header {
     box-sizing: border-box;
 }
 
+
 .head-plot-float {
     margin-top: -10%;
 }
@@ -246,7 +247,7 @@ header {
     color: black;
 }
 
-/* property choice sectio end */
+/* property choice section end */
 
 /* master plan */
 
@@ -344,6 +345,44 @@ header {
 }
 
 /*gallary section end*/
+
+/* map section start */
+.map-bg{
+    background: #F5F5F5;
+    
+  }
+  .map-1{
+    color: #444444;
+  }
+  .map-1 strong{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #D2B48C;
+
+  }
+  .map-1 span{
+    font-size: 1rem;
+    color: black;
+  }
+  .map-1 p{
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+  .map-1 ul{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+  .map-how-to-reach-heading{
+      color: #D2B48C;
+      font-size: 2.5rem;
+      font-weight: 600;
+  }
+  .map-how-to-reach-heading p span{
+      color: black;
+  }
+  /* map section end */
 
 /* media queries */
 
