@@ -159,7 +159,6 @@ header {
 
 .nav-div-fixed .nav-no-border-bottom:hover:before, .nav-div-fixed li:hover>.nav-no-border-bottom:before, .nav-div-fixed .active>.nav-no-border-bottom:before {
     visibility: hidden;
-    width: 100%;
 }
 
 /* navbar fixed end */
@@ -216,31 +215,135 @@ header {
     height: 250px;
 }
 
-.club-heading{
+.club-heading {
     font-size: 2.5rem;
     font-family: 'Orelega One', cursive;
 }
-.club-heading p span{
-    color:#C5A37E;
+
+.club-heading p span {
+    color: #C5A37E;
 }
+
 /* clubhouse end */
 
 /* property choice section start */
-.property-padding{
+
+.property-padding {
     padding: 3% 18% 0 18%;
     background-color: #F5F5F5;
 }
-.property-choice-color{
+
+.property-choice-color {
     font-size: 2.5rem;
     font-family: 'Orelega One', cursive;
 }
-.property-choice-color p{
+
+.property-choice-color p {
     color: #C5A37E;
 }
-.property-choice-color p span{
+
+.property-choice-color p span {
     color: black;
 }
+
 /* property choice sectio end */
+
+/* master plan */
+
+.master-plan {
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-bottom: 4px solid #7e83c5;
+}
+
+.master-plan span {
+    color: #C5A37E;
+}
+
+.master-plan-col2-padding {
+    margin-left: -3.5rem;
+    padding-right: 4.5rem;
+}
+
+.tab-pane {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* master plna end */
+
+/* social plan start */
+
+.social-club-background {
+    background: url('bg-good-life.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    margin-top: 16%;
+}
+
+.social-img img {
+    position: absolute;
+    top: -20%;
+}
+
+.social-heading {
+    color: #154889;
+    font-size: 2.4rem;
+    font-family: 'Orelega One', cursive;
+}
+
+.social-heading span {
+    position: absolute;
+    top: -18%;
+    border-bottom: 3px solid #154889;
+}
+
+/* social plan end */
+
+/*gallay section start*/
+
+.gallery {
+    background-color: #F0F8FF;
+}
+
+.gallery div span{
+    font-family: 'Orelega One', cursive;
+    font-size: 2.5rem;
+    color: #C5A37E;
+}
+
+.gallery img {
+    width: 100%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.gallery img:hover{
+    transform: scale(1.06);
+    filter: brightness(75%)
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+.btn-on-body button {
+    /* background: white; */
+    color: black;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.btn-on-body button:hover {
+    filter: opacity(70%)
+}
+
+/*gallary section end*/
 
 /* media queries */
 
@@ -285,16 +388,41 @@ header {
         z-index: 998;
     }
     /* header section end */
-
     /* mobile nav start */
     .nav-section-fix {
         display: none;
     }
     /* mobile nav end */
-
     /* property choice start */
-    .property-padding{
+    .property-padding {
         padding: 2% 0;
     }
     /* property choice end */
+    /* master plan section start */
+    .master-plan-col2-padding {
+        margin-left: 0;
+        padding-right: 0;
+    }
+    /* master plan section end */
+    /* social club start */
+    .social-club-background {
+        position: static;
+    }
+    .social-img img {
+        position: static;
+        margin: 5% 0;
+    }
+    .social-heading span {
+        position: static;
+    }
+    .social-heading {
+        margin-bottom: 10%;
+    }
+    /* social club end */
+    /* gallary section start */
+    .btn-on-body button {
+        top: 8%;
+        right: 5%;
+    }
+    /* gallary section end */
 }
