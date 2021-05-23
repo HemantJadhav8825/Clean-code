@@ -418,6 +418,33 @@ header {
 
 /* map section end */
 
+/* contact us start */
+.contact-us-heading{
+    font-weight: 700;
+    color: 	#D2B48C;
+    border-bottom: 3px solid #000080;
+  }
+  .contact-us-address p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+  }
+  .contact-us-address p:hover{
+    color: #106DE8;
+  }
+  .contact-us-address strong{
+    font-size: 22px;
+    color: #0D6EFD;
+  }
+  .contact-us-address a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #444;
+  }
+  
+  /* contact us end*/
+
 /* media queries */
 
 @media (min-width: 768px) {
