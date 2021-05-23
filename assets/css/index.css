@@ -8,7 +8,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url('back.jpg');
+    background-image: url('../img/back.jpg');
     background-size: cover;
     box-sizing: border-box;
 }
@@ -303,7 +303,7 @@ header {
 /* social plan start */
 
 .social-club-background {
-    background: url('bg-good-life.jpg') no-repeat;
+    background: url('../img/bg-good-life.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -452,7 +452,7 @@ header {
     #sd-bar-phn {
         display: none;
     }
-    /* phone section end */
+    /* mobile nav start */
     .mob-section-nav {
         display: none;
     }
