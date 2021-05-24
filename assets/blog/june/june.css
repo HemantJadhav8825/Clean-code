@@ -1,17 +1,90 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
     margin: 0;
     padding: 0;
+    background: #F1F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
 }
 
 /* blog-background-image start*/
-.blog-bg-img{
-    background: url("back.jpg") no-repeat center;
+
+.blog-bg-img {
+    background: url("./bg-img-logo/back.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 60vh;
 }
+
 /* blog-background-imgage end */
 
+/* author start */
+
+.author {
+    font-size: 1rem;
+}
+
+.author i {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+}
+
+.avatar {
+    text-align: center;
+    background-color: #C4C4C4;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.team-sankalp {
+    line-height: 0.5rem;
+}
+
+.team-sankalp p {
+    opacity: 0.4;
+}
+
+.team-sankalp a {
+    color: red;
+    text-decoration: none;
+}
+
+/* author end */
+
+/* reputed builder time date */
+
+.reputed-time-date {
+    color: grey;
+}
+
+.reputed-time-date div {
+    padding-right: 1.2rem;
+}
+
+.reputed-time-date div a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+/* reputed builder time date */
+
+/* footer tag */
+
+
+.footer-tag a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer tag end*/
 
 /* navbar fixed start */
 
@@ -74,8 +147,6 @@ body{
 
 /* navbar fixed end */
 
-
-
 /* mobile navigation start */
 
 .mob-section-nav {
@@ -113,5 +184,13 @@ body{
         display: none;
     }
     /* mobile nav end */
-    
+    /* reputed builder */
+    .reputed-time-date div {
+        padding-right: 0;
+    }
+    /* footer tag */
+    .footer-tag a {
+        font-size: 14px;
+    }
+     
 }
