@@ -12,9 +12,9 @@ h1 {
 
 /* blog-background-image start*/
 
-.blog-bg-img {
-    background: url("./bg-img-logo/back.jpg") no-repeat center;
-    background-size: cover;
+.blog-bg-img img{
+    /* background: url("./bg-img-logo/back.jpg") no-repeat center;
+    background-size: cover; */
     width: 100%;
     height: 60vh;
 }
